@@ -1,4 +1,4 @@
-git checkout https://github.com/tlm2021/devenv.git
+git clone https://github.com/tlm2021/devenv.git
 ln -sb devenv/.tmux.conf ~
 ln -sb devenv/.bash_profile ~
 ln -sb devenv/.bashrc ~
