@@ -1,6 +1,8 @@
 
 #debian or ubuntu setup files. 
 
+apt-get install editorconfig
+
 # Install rlwrap. Required for node in tmux
 sudo apt-get install -y rlwrap
 
