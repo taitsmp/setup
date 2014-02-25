@@ -1,8 +1,10 @@
 setup
 =====
 
-Setup script for Travis Mosley's unix development environment.  Works on ubuntu. 
+1. run distro related setup
+2. make sure git is installed
+3. run vim setup
+4. run setup.sh
 
-Downloads files from github.com/tlm2021/devenv.git, and links them to the current user's homedir.
+Initially forked from - github.com/tlm2021/
 
-Also intalls some commonly used packages.
