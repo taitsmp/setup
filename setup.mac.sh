@@ -7,8 +7,9 @@ brew install rlwrap
 npm install -g jshint
 
 #install - ctags patch for better php parsing
-brew unlink ctags
+brew uninstall ctags
 brew doctor
 brew update
-curl https://gist.githubusercontent.com/taitsmp/9199869/raw/a45b3f92456e9a63b107c8a83ccb28923bd14ea6/- | git apply
+cd /usr/local/Library/Formula
+curl https://gist.githubusercontent.com/taitsmp/9199869/raw/eaaf06d69fb6b5376e97ac5b930f9290b6edae4b/- | git apply
 brew install ctags --HEAD
