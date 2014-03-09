@@ -3,6 +3,8 @@
 
 brew install editorconfig
 brew install rlwrap
+#install the ag command.
+brew install the_silver_searcher
 
 npm install -g jshint
 
