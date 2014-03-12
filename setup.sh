@@ -53,5 +53,8 @@ chmod 755 ~/.git_template/hooks/post-checkout
 
 git config --global alias.ctags '!.git/hooks/ctags'
 git config --global alias.lg "log --color --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr)%C(bold blue)<%an>%Creset' --abbrev-commit"
+#http://stackoverflow.com/questions/15316601/why-is-git-pull-considered-harmful
+git config --global alias.up '!git  fetch --all -p; git merge --ff-only @{u}'
+
 
 
