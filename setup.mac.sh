@@ -1,6 +1,8 @@
 
 # TODO - how to install git?
+# brew install git
 
+brew install node
 brew install editorconfig
 brew install rlwrap
 #install the ag command.
