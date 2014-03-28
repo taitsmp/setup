@@ -3,6 +3,7 @@
 # brew install git
 
 brew install node
+brew install tmux
 brew install editorconfig
 brew install rlwrap
 #install the ag command.
