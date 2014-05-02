@@ -10,6 +10,7 @@ brew install rlwrap
 brew install the_silver_searcher
 
 npm install -g jshint
+npm install -g STRML/JSXHint
 
 #install - ctags patch for better php parsing
 brew uninstall ctags
