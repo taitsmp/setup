@@ -7,6 +7,7 @@ brew install rlwrap
 brew install the_silver_searcher
 
 npm install -g jshint
+npm install -g jsxhint #for react.js.  must sudo?
 
 #install - ctags patch for better php parsing
 brew uninstall ctags
