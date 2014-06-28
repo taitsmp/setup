@@ -1,13 +1,16 @@
 
 # TODO - how to install git?
+# brew install git
 
+brew install node
+brew install tmux
 brew install editorconfig
 brew install rlwrap
 #install the ag command.
 brew install the_silver_searcher
 
-npm install -g jshint
 npm install -g jsxhint #for react.js.  must sudo?
+npm install -g STRML/JSXHint
 
 #install - ctags patch for better php parsing
 brew uninstall ctags

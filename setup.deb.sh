@@ -11,5 +11,5 @@ sudo apt-get install -y nodejs
 
 # Install jshint to allow checking of JS code within emacs
 # http://jshint.com/
-npm install -g jshint
 npm install -g jsxhint #for react.js
+npm install -g STRML/JSXHint
