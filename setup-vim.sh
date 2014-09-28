@@ -23,7 +23,7 @@ git clone git://github.com/majutsushi/tagbar ~/.vim/bundle/tagbar
 # one of the following is giving me issues. 
 #git clone https://github.com/bitc/vim-hdevtools.git ~/.vim/bundle/vim-hdevtools.git
 #git clone git@github.com:lukerandall/haskellmode-vim.git ~/.vim/bundle/haskellmode-vim.git
-
+git clone https://github.com/raichoo/purescript-vim.git ~/.vim/bundle/purescript-vim
 
 #cucumber / yadda
 git clone https://github.com/tpope/vim-cucumber.git ~/.vim/bundle/vim-cucumber/
