@@ -21,7 +21,7 @@ tee ~/.git_template/hooks/ctags << 'EOF'
 set -e
 PATH="/usr/local/bin:$PATH"
 trap "rm -f .git/tags.$$" EXIT
-ctags --tag-relative -Rf.git/tags.$$ --exclude=.git --languages=-javascript,sql
+ctags --tag-relative --fields=+aimS -Rf.git/tags.$$ --exclude=.git --languages=-javascript,sql
 mv .git/tags.$$ .git/tags
 EOF
 
