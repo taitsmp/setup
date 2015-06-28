@@ -16,6 +16,7 @@ mkdir -p ~/.git_template/hooks
 
 # -- start git auto ctags
 # http://tbaggery.com/2011/08/08/effortless-ctags-with-git.html
+# https://github.com/shawncplus/phpcomplete.vim/wiki/Patched-ctags
 tee ~/.git_template/hooks/ctags << 'EOF'
 #!/bin/sh
 set -e
