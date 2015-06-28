@@ -1,13 +1,12 @@
 
-
 ln -is dotfiles/.tmux.conf ~
 ln -is dotfiles/.bash_profile ~
 ln -is dotfiles/.bashrc ~
 ln -is dotfiles/.bashrc_custom ~
 ln -is dotfiles/.bash_prompt ~
-ln -is dotfiles/.tmux.conf ~
 ln -is dotfiles/.vimrc ~
 ln -is dotfiles/.screenrc ~
+ln -is dotfiles/.eslintrc ~
 
 #todo: what about emacs?
 
@@ -15,7 +14,7 @@ ln -is dotfiles/.screenrc ~
 git config --global init.templatedir '~/.git_template'
 mkdir -p ~/.git_template/hooks
 
-# start git auto ctags
+# -- start git auto ctags
 # http://tbaggery.com/2011/08/08/effortless-ctags-with-git.html
 tee ~/.git_template/hooks/ctags << 'EOF'
 #!/bin/sh
@@ -49,11 +48,11 @@ chmod 755 ~/.git_template/hooks/post-rewrite
 chmod 755 ~/.git_template/hooks/post-commit
 chmod 755 ~/.git_template/hooks/post-merge
 chmod 755 ~/.git_template/hooks/post-checkout
-# end git auto ctags
+# -- end git auto ctags
 
 git config --global alias.ctags '!.git/hooks/ctags'
 git config --global alias.lg "log --color --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr)%C(bold blue)<%an>%Creset' --abbrev-commit"
-#http://stackoverflow.com/questions/15316601/why-is-git-pull-considered-harmful
+#http://stackoverflow.com/questions/15316601/why-is-git-pull-considered-harmful  #not really buying this argument.
 git config --global alias.up '!git  fetch --all -p; git merge --ff-only @{u}'
 git config --global push.default upstream
 

@@ -21,6 +21,7 @@ git clone https://github.com/pangloss/vim-javascript.git ~/.vim/bundle/vim-javas
 git clone https://github.com/mxw/vim-jsx.git ~/.vim/bundle/vim-jsx.git
 git clone git://github.com/burnettk/vim-angular.git ~/.vim/bundle/vim-angular.git
 git clone git://github.com/majutsushi/tagbar ~/.vim/bundle/tagbar 
+git clone git://github.com/zah/nimrod.vim.git ~/.vim/bundle/nimrod
 # one of the following is giving me issues. 
 #git clone https://github.com/bitc/vim-hdevtools.git ~/.vim/bundle/vim-hdevtools.git
 #git clone git@github.com:lukerandall/haskellmode-vim.git ~/.vim/bundle/haskellmode-vim.git

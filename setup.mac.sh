@@ -12,6 +12,11 @@ brew install the_silver_searcher
 npm install -g jsxhint #for react.js.  must sudo?
 npm install -g STRML/JSXHint
 
+#eslint for ecmascript 6 and react
+npm install -g eslint
+npm install -g babel-eslint
+npm install -g eslint-plugin-react
+
 #make haskell work on the mac with Xcode 5.
 #curl -O http://www.haskell.org/platform/ghc-clang-wrapper
 #chmod a+x ghc-clang-wrapper
