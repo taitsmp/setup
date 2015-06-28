@@ -13,3 +13,10 @@ sudo apt-get install -y nodejs
 # http://jshint.com/
 npm install -g jsxhint #for react.js
 npm install -g STRML/JSXHint
+
+#lint for ecmascript 6 and react - can probably remove jshint above. 
+npm install -g eslint
+npm install -g babel-eslint
+npm install -g eslint-plugin-react
+
+
