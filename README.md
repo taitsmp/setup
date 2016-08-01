@@ -1,7 +1,7 @@
 setup
 =====
 
-1. install [homebrew](http://brew.sh/)
+1. install [homebrew](http://brew.sh/) if on mac. 
 1. run distro related setup
 2. make sure git is installed
 3. run vim setup
