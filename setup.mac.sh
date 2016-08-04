@@ -2,10 +2,11 @@
 # TODO - how to install git?
 # brew install git
 
-brew install node
+#brew install node
 brew install tmux
 brew install editorconfig
 brew install rlwrap
+brew install jq
 #install the ag command.
 brew install the_silver_searcher
 
