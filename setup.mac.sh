@@ -10,6 +10,7 @@ brew install jq
 brew install wget
 #install the ag command.
 brew install the_silver_searcher
+brew install shellcheck
 
 #npm install -g jsxhint #for react.js.  must sudo?
 #npm install -g STRML/JSXHint
