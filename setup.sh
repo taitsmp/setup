@@ -10,6 +10,8 @@ ln -is dotfiles/.eslintrc ~
 
 curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.34.0/install.sh | bash
 
+mkdir -p ~/.local/bin
+
 #todo: what about emacs?
 
 # global git templates.
