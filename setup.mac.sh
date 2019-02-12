@@ -10,8 +10,8 @@ brew install jq
 #install the ag command.
 brew install the_silver_searcher
 
-npm install -g jsxhint #for react.js.  must sudo?
-npm install -g STRML/JSXHint
+#npm install -g jsxhint #for react.js.  must sudo?
+#npm install -g STRML/JSXHint
 
 #eslint for ecmascript 6 and react
 npm install -g eslint

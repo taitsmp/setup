@@ -8,9 +8,11 @@ ln -is dotfiles/.vimrc ~
 ln -is dotfiles/.screenrc ~
 ln -is dotfiles/.eslintrc ~
 
+curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.34.0/install.sh | bash
+
 #todo: what about emacs?
 
-# global git templates. 
+# global git templates.
 git config --global init.templatedir '~/.git_template'
 mkdir -p ~/.git_template/hooks
 
