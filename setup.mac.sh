@@ -7,6 +7,7 @@ brew install tmux
 brew install editorconfig
 brew install rlwrap
 brew install jq
+brew install wget
 #install the ag command.
 brew install the_silver_searcher
 
