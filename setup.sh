@@ -12,6 +12,11 @@ curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.34.0/install.sh | b
 
 mkdir -p ~/.local/bin
 
+phpctags
+curl -Ss http://vim-php.com/phpctags/install/phpctags.phar > ~/.local/bin/phpctags
+chmod u+x ~/.local/bin/phpctags
+
+
 #todo: what about emacs?
 
 # global git templates.
