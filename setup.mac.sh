@@ -19,7 +19,11 @@ brew install --HEAD universal-ctags/universal-ctags/universal-ctags
 
 #install conda
 wget https://repo.continuum.io/miniconda/Miniconda3-latest-MacOSX-x86_64.sh -O ~/miniconda.sh
-bash ~/miniconda.sh -b -p $HOME/miniconda
+bash ~/miniconda.sh -b -p "$HOME"/miniconda
+
+#aws ecs
+curl -o "$HOME"/.local/bin/ecs-cli https://s3.amazonaws.com/amazon-ecs-cli/ecs-cli-darwin-amd64-latest
+chmod u+x "$HOME"/.local/bin/ecs-cli
 
 #eslint for ecmascript 6 and react
 npm install -g eslint

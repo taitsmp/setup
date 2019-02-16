@@ -16,6 +16,10 @@ phpctags
 curl -Ss http://vim-php.com/phpctags/install/phpctags.phar > ~/.local/bin/phpctags
 chmod u+x ~/.local/bin/phpctags
 
+#aws stuff - assumes you installed python3
+pip install awscli --upgrade --user
+pip install awsebcli --upgrade --user
+
 
 #todo: what about emacs?
 
