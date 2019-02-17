@@ -25,6 +25,14 @@ bash ~/miniconda.sh -b -p "$HOME"/miniconda
 curl -o "$HOME"/.local/bin/ecs-cli https://s3.amazonaws.com/amazon-ecs-cli/ecs-cli-darwin-amd64-latest
 chmod u+x "$HOME"/.local/bin/ecs-cli
 
+#install flutter
+FLUTTER_VERSION=1.0.0
+cd ~/Downloads
+wget https://storage.googleapis.com/flutter_infra/releases/stable/macos/flutter_macos_v${FLUTTER_VERSION}-stable.zip
+unzip flutter_macos_v${FLUTTER_VERSION}-stable.zip
+mv flutter ~
+cd -
+
 #eslint for ecmascript 6 and react
 npm install -g eslint
 npm install -g babel-eslint
