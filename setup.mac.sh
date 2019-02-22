@@ -13,6 +13,7 @@ brew install the_silver_searcher
 brew install shellcheck
 #brew install ctags 
 brew install --HEAD universal-ctags/universal-ctags/universal-ctags
+brew install terraform
 
 #npm install -g jsxhint #for react.js.  must sudo?
 #npm install -g STRML/JSXHint
