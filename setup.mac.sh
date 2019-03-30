@@ -15,6 +15,7 @@ brew install shellcheck
 brew install --HEAD universal-ctags/universal-ctags/universal-ctags
 brew install terraform
 brew install composer 
+brew install imagick
 
 #npm install -g jsxhint #for react.js.  must sudo?
 #npm install -g STRML/JSXHint
